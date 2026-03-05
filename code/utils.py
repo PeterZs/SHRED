@@ -227,7 +227,7 @@ def loadAndCleanObj(infile):
                     continue
                 
             elif ls[0] == 'f':
-                ls = [i.split('//')[0] for i in ls]
+                ls = [i.split('/')[0] for i in ls]
 
                 try:
                     raw_faces.append((
